@@ -1,0 +1,7 @@
+N = int(input())
+M = int(input())
+K1 = int(input())
+K2 = int(input())
+y = int(((M - K1) * N) / (K2 - K1))
+x = int(N - y)
+print(f'{x} {y}')

@@ -1,0 +1,5 @@
+name = input()
+number = input()
+print(f'Группа №{number[0]}.')
+print(f'{number[2]}. {name}.')
+print(f'Шкафчик: {number}.\nКроватка: {number[1]}.')

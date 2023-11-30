@@ -1,0 +1,6 @@
+title = input()
+price = int(input())
+weight = int(input())
+cash = int(input())
+print(f"Чек\n{title} - {weight}кг - {price}руб/кг")
+print(f"Итого: {int(price * weight)}руб\nВнесено: {cash}руб\nСдача: {int(cash - weight * price)}руб", sep='')
